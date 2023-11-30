@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Bot</title>
+    <link rel="stylesheet" href="bootstrap-5.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/beranda.css" />
+    <link rel="stylesheet" href="style/bot.css">
+    <style>
+        .chat-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .chat-container::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .message {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .user-message {
+            background-color: #dff9fb;
+            float: right;
+        }
+        .bot-message {
+            background-color: #f1f1f1;
+            float: left;
+        }
+        .input-container {
+            margin-top: 20px;
+        }
+        .input-container input[type=text] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .fixed-element {
+            position: fixed;
+            right: 20px;
+            bottom: 100px;
+        }
+        .close{
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin-top: -10px;
+            margin-right: -5px;
+            /* background-color: red; */
+            /* padding: 10px;
+            w10p */
+            padding: 15px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container fixed-element" id="box">
+        <button class="close" id="cl">X</button>
+        <h3>Satgas PPKS Unja</h3>
+        <div id="chat-log"></div>
+        <div class="input-container ">
+            <input type="text" id="user-input"  placeholder="Masukkan pesan...">
+            <button onclick="sendMessage()" class="btn btn-primary">Kirim</button>
+        </div>
+    </div>
+
+    <script src="js/sc.js"></script>
+    <script src="bootstrap-5.3/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Diri</title>
+    <link rel="stylesheet" href="bootstrap-5.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/form-1.css" />
+    <link rel="stylesheet" href="style/bot.css">
+    <style>
+      .btn-floating {
+        position: fixed;
+        right: 25px;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+        border: 0;
+        z-index: 9999;
+        color: white;
+        transition: .2s;
+      }
+      
+      .btn-floating span {
+        font-size: 16px;
+        margin-left: 5px;
+        transition: .2s;
+        line-height: 0px;
+        display: none;
+      }
+      
+      .btn-floating:hover img {
+        margin-bottom: -3px;
+      }
+      
+      .btn-floating.bot {
+        bottom: 30px;
+        background-color: #92B1EE;
+      }
+    </style>
+</head>
+<body>
+  <button class="btn-floating bot" id="chatwa">
+    <img width="40" src="./asset/bot.png" alt="bot">
+</button>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <!-- ========= -->
+    <div class="left-bar-menu">
+      <div class="container sidebar-logo">
+        <img src="asset/Logo Unja.png" alt="">
+      </div>
+      <div class="container sidebar-menu">
+        <h3>PORTAL PPKS UNNJA</h3>
+        <div>
+          <button><a href="form.html">
+            <img src="" alt="">
+            Form Data Diri
+          </a></button>
+          <button><a href="atur schedule.html">
+            <img src="" alt="">
+            Atur Schedule</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- ========== -->
+    <a class="navbar-brand navbar-expand-lg" style="margin-left: 200px;" href="login.html">Userxxxxxxxxxx</a>
+    <div class="row">
+      <div class="col-auto">
+        <ul class="navbar-nav list-inline mt-1 mb-1">
+          <!-- ================ -->
+          <li><a class="list-inline-item" href="beranda.html">Beranda</a></li>
+          <li><a class="list-inline-item" href="#">Alur Pelaporan</a></li>
+          <li class="list-inline-item list-menu dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil Satgas PPKS</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="pengantar.html">Pengantar</a></li>
+              <li><a class="dropdown-item" href="struktur.html">Sturktur Organisasi</a></li>
+            </ul>
+          </li>
+          <li><a class="list-inline-item" href="hukum.html">Dasar Hukum</a></li>
+          <li><a class="list-inline-item" href="berita.html">Berita</a></li>
+          <!-- ================== -->
+        </ul>
+      </div>          
+    </div>
+    
+</nav>
+
+      <div class="kosong"></div>
+      <div class="kotak">
+      <div class="container kosong">
+        <div class="button">
+            <button type="button" class="btn-1"><h3>Satgas Pelaporan PPKS UNJA</h3>
+                <p>Terimakasih telah mengisi form data diri.<br>
+                Silahkan berkonsultasi lewat live chat dan mengatur schedule pertemuan.</p>
+            </button>
+          </div>
+        </div>
+        <div class="container text-center footer">
+            <img src="asset/g.png" alt="">
+            <img src="asset/fb.png" alt="">
+            <img src="asset/twitter.png" alt="">
+            <img src="asset/ig.png" alt="">
+            <img src="asset/pinterest.png" alt="">
+            <img src="asset/yt.png" alt="">
+          </div>
+          <div class="chat-container fixed-element bg-white" id="box">
+            <h3>Satgas PPKS Unja</h3>
+            <div id="chat-log"></div>
+            <div class="input-container ">
+                <input type="text" id="user-input"  placeholder="Masukkan pesan...">
+                <button onclick="sendMessage()" class="btn btn-primary">Kirim</button>
+            </div>
+            <script src="js/sc.js"></script>
+          <script src="bootstrap-5.3/js/bootstrap.min.js"></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+          crossorigin="anonymous"></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+          integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+          crossorigin="anonymous"></script>
+  </body>
+  </head>

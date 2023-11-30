@@ -1,0 +1,198 @@
+.container-fluid {
+    background-color: #EC563D;
+}
+body {
+    background-image: url('../asset/Glbng.png');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    background-position: bottom;
+    min-height: 700px;
+  }
+.container-fluid{
+    height: 60px;
+    top: 0;
+    position:fixed;
+    z-index: 200;
+}
+
+.kosong{
+    height: 70px;
+}
+.row{
+color: #FEEFEF;
+}
+
+.navbar-brand{
+    color: #FEEFEF;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #FEEFEF;
+    padding-top: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.btn-1 {
+    font-size: 20px;
+    margin-top: 15px;
+    background: #EC563D;
+    border-radius: 15px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.list-inline-item {
+    color: #FEEFEF;
+    text-decoration: none;
+    padding: 0 6px;
+    font-weight: bold;
+}
+
+.list-inline-item:hover{
+    text-decoration: underline;
+    color: #FEEFEF;
+}
+.dropdown-toggle {
+    color: #FEEFEF;
+}
+.dropdown-toggle:hover{
+    color: #FEEFEF;
+}
+
+.font-menu a:active, 
+.font-menu a:visited, 
+.font-menu a:link{
+    text-decoration: none;
+}
+.list-menu a{
+    padding-top: 0px;
+    color: #FEEFEF; 
+    font-weight: bold;
+}
+.input-box label,
+.input-box textarea,
+.input-box input{
+    width: 100%;
+}
+.kotak{
+    margin-left: 200px;
+}
+.kotak-form{
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #f3975e;
+    background-color: #FFB080;
+    color: #FEEFEF;
+}
+.kotak-form-button{
+    width: 100%;
+    text-align: center;
+}
+#input-file{
+    display: none;
+}
+.input-file{
+    background-color: #EC563D;
+    padding: 3px 10px;
+    border-radius: 5px;
+    width: fit-content !important;
+}
+.sidebar-logo img{
+    width: 60px;
+    display: block;
+    margin: 10px auto;
+}
+.sidebar-menu h3{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #FEEFEF;
+}
+.sidebar-menu button{
+    background-color: #EC563D;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    font-size: 13px;
+    border-radius: 15px;
+    border: 1px solid #ff4929;
+    color: #FEEFEF;
+    font-weight: bold;
+}
+.sidebar-menu button:hover{
+    text-decoration: underline; 
+   
+}
+.sidebar-menu button a{
+    text-decoration: none;
+    color: #FEEFEF;
+}
+.left-bar-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    background-color: #FF914D;
+    height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: #FF914D;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: #FEEFEF;
+    /* font-weight: bold; */
+}
+.btn a{
+    text-decoration: none;
+    color: #FEEFEF;
+}
+.btn {
+    background-color:#ff4929;
+    text-decoration: none;
+    color: #FEEFEF;
+}
+.btn:hover {
+    background-color:#EC563D;
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: #EC563D;
+}
+.form{
+    padding: 5px 10px;
+    padding-left: 10px; 
+}
+.form table tbody tr td{
+    width: 350px;
+    padding: 0 15px;
+}
+.form table tbody tr td input,
+.form table tbody tr td textarea{
+    width: 100%;
+}
+.form table tbody tr td textarea{
+    height: 80px;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+input{
+    background-color: #EC563D;
+}
+textarea{
+    background-color: #EC563D;
+}

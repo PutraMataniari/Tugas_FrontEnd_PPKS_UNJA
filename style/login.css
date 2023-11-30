@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Poppins'; /* Nama font yang ingin Anda gunakan */
+    src: url('path/ke/font/Poppins-Bold.woff2') format('woff2'), /* Format font dan path ke file font */
+         url('path/ke/font/Poppins-ExtraBold.woff') format('woff');
+    /* Tambahkan format dan path ke file font jika ada lebih dari satu format yang didukung */
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+
+.Login {
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #EC563D;
+}
+
+.logo {
+    text-align: center;
+}
+.Login h1 {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 25px;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #FEEFEF;
+}
+
+.Login form {
+    font-size: 20px;
+    font-family: 'Poppins-Bold', sans-serif;
+    font-style: normal;
+    line-height: 140%;
+    align-items: center;
+    color: #FEEFEF;
+    
+}
+
+.Login form .form-group {
+    margin-bottom: 12px;
+    
+}
+
+.Login button[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+    background: #FEE4E5;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Login button[type="submit"] h4 a{
+    text-decoration: none;
+    color: #EC563D;
+}
+
+.Login button[type="submit"]:active{
+    background-color: #db8c7e;
+    text-decoration: none;
+}
+
+.Login button h4 {
+    font-family: 'Poppins-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 680;
+    font-size: 30px;
+    align-items: center;
+    text-decoration: none;
+}
